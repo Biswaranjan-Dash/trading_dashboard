@@ -1,0 +1,79 @@
+.page-shell {
+  min-height: 100vh;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.box {
+  border: 1px solid #999;
+  padding: 16px;
+  margin: 0 0 16px;
+  background: #fff;
+}
+
+.auth-box {
+  max-width: 420px;
+  margin: 60px auto 0;
+}
+
+.dashboard-shell {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 16px;
+}
+
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.tabs button,
+button {
+  border: 1px solid #777;
+  background: #efefef;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.tabs button.active {
+  background: #dcdcdc;
+}
+
+.stack {
+  display: grid;
+  gap: 12px;
+}
+
+label {
+  display: grid;
+  gap: 6px;
+}
+
+input {
+  border: 1px solid #777;
+  padding: 8px;
+  font: inherit;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #999;
+  padding: 8px;
+  text-align: left;
+}
+
+.message {
+  margin-top: 12px;
+}
